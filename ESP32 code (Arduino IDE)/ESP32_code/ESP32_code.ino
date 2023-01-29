@@ -2,8 +2,6 @@
 //#include <WiFiManager.h> 
 #include <IOXhop_FirebaseESP32.h>    
 
-#include "soc/soc.h"
-#include "soc/rtc_cntl_reg.h"
 
 //Provide the RTDB payload printing info and other helper functions.
 
