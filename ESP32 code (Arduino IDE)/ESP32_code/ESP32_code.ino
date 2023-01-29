@@ -34,9 +34,11 @@ void setup() {
   delay(1000);
 
   pinMode(led, OUTPUT);    
+
+  
 //  WiFiManager wifiManager;
 //  wifiManager.resetSettings();
-//  wifiManager.autoConnect("CIRCUIT DIGEST WiFi Manager");
+//  wifiManager.autoConnect("CIRCUIT DIGEST WiFi Manager");                   // to use ESP32 as a wifi manager you can uncomment this 
 //  Serial.println("connected :)");            
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);                                      //try to connect with wifi
